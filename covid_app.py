@@ -34,7 +34,7 @@ if upload_file is not None:
     #st.write(f'{img.shape}')
 
     # Load the train model
-    model = load_model('C:/Users/USER/Desktop/APPLIED ALLIED PYTHON AND AI TUTORIAL/MLOPs/Sample_deployment/Assignment/vgg_model.h5')
+    model = load_model('vgg_model.h5')
 
     # Make predictions
     prediction = model.predict(img)
